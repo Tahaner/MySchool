@@ -4,7 +4,8 @@ background-color: #48d4b6;
 h1 {
 text-align: center;background-color: white; padding: 10px;
 }
-h2 {text-align: center;}
+h2 {text-align: center;background-color:white;border-left:240px;border-left:240px;}
 nav ul {}
 h6{text-align: right;}
-img {}
+p{text-align: left;}
+img {align-self: center;}
