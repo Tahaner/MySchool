@@ -1,11 +1,12 @@
 body {
-background-color: #48d4b6;
+background: linear-gradient(#FFDDD6 20%, #FFF9ED 20%, #FFF9ED 97%, #DBDBDB 85%);
 }
 h1 {
-text-align: center;background-color: white; padding: 10px;
+text-align: center;background-color: white; padding: 10px; font-family: Gotham;
 }
-h2 {text-align: center;background-color:white;border-left:240px;border-left:240px;}
-nav ul {}
+h2 {text-align: center;background-color:white;border-left:240px;border-left:240px;font-family: Gotham;}
 h6{text-align: right;}
-p{text-align: left;}
-img {align-self: center;}
+.inform{display:inline-block}
+img {margin-left: 420px; border:solid 8px white; border-radius: 20px}
+.navig li {display: inline-block;vertical-align: middle;padding:0 15px 10px 0; margin: 0px 10px 10px;background: linear-gradient(45deg,lightBlue,white); border:solid 2px black;border-radius: 0 10px 0 10px;
+padding:10px 10px 10px 10px;font-family: Times New Roman;font-weight: bold;}
