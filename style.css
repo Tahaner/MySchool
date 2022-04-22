@@ -14,9 +14,6 @@ background-color: white;
   border-left:240px;
   font-family: Gotham;
 }
-h6 {
-  text-align: right;
-}
 .inform{
 display:inline-block;
 }
@@ -49,6 +46,10 @@ margin: 0 10px 0 10px;
   -moz-border-radius-topleft: 10px;
   -moz-border-radius-topright: 10px;
 }
+.rus, .fis, .math, .teacher {
+border:solid 8px white;
+border-radius: 20px;
+}
 .rus{
 width: 400px;
 height: 400px;
@@ -67,10 +68,23 @@ margin-left: 700px;
 .chem {
 margin-left: 700px;
 }
-.math {
+.math, .teacher {
   border:solid 8px white;
   border-radius: 20px
   position: absolute;
   margin-bottom: 20px;
   margin-left: 550px;
+}
+.teacher {
+margin-top: 10px
+}
+.text {
+background-color: linen;
+font-size: 30px;
+font-family: Times New Roman;
+text-align: center;
+position: relative;
+}
+h6 {
+  text-align: right;
 }
