@@ -93,4 +93,10 @@ a {
 color:black;
 text-decoration: none;
  }
-@media screen, print {.math,.rus,.teacher{margin-left:600px;margin-bottom: 10px;} .chem{margin-left:750px;margin-bottom: 10px;} .fis{margin-left:350px;margin-bottom: 10px;} .school{margin-left:420px;} }
+@media screen and (min-width: 800px)
+print {
+  .math,.rus,.teacher{margin-left:600px;margin-bottom: 10px;}
+  .chem{margin-left:750px;margin-bottom: 10px;}
+  .fis{margin-left:350px;margin-bottom: 10px;}
+  .school{margin-left:420px;}
+}
