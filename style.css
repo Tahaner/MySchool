@@ -2,10 +2,12 @@ body {
 background: linear-gradient(#FFDDD6 5%, #FFF9ED 10%, #FFF9ED 97%, #DBDBDB 85%);
 }
 .name {
-text-align: center;
-background-color: white;
+ text-align: center;
+ background-color: linen;
+ border:solid 10px white;
+ border-radius: 10px;
  padding: 10px;
-  font-family: Gotham;
+ font-family: Gotham;
 }
 .motto {
   text-align: center;
@@ -13,42 +15,47 @@ background-color: white;
   border-left:240px;
   border-left:240px;
   font-family: Gotham;
+  border: solid 10px linen;
+  border-radius: 10px;
 }
 .inform{
-display:inline-block;
+  display:inline-block;
+  background-color: linen;
+  font-weight: bold;
+  font-size: 20px;
+  border:solid 5px white;
+  border-radius: 5px;
 }
 .school {
-margin-left: 420px;
-border:solid 8px white;
-border-radius: 20px
+ margin-left: 420px;
+ border:solid 8px white;
+ border-radius: 20px
 }
 .navig{
   background-color: white;
   padding: 2px 0 2px 0
+  border: solid 5px #FFDDD6;
+  border-radius: 5px;
 }
 .navig li {
-display: inline-block;
-vertical-align: middle;
-padding:0 15px 10px 0;
-background: linear-gradient(45deg,lightBlue,white);
-border:solid 2px black;
-border-radius: 0 10px 0 10px;
-padding:10px 10px 10px 10px;
-font-family: Times New Roman;
-font-weight: bold;
-margin: 0 10px 0 10px;
+ display: inline-block;
+ vertical-align: middle;
+ padding:0 15px 10px 0;
+ background: linear-gradient(45deg,lightBlue,white);
+ border:solid 2px black;
+ border-radius: 0 10px 0 10px;
+ padding:10px 10px 10px 10px;
+ font-family: Times New Roman;
+ font-weight: bold;
+ margin: 0 10px 0 10px;
 }
 .navig a:hover {
-  background-color: #000000;
-  color: #ffffff;
-  -webkit-border-top-left-radius: 10px;
-  -webkit-border-top-right-radius: 10px;
-  -moz-border-radius-topleft: 10px;
-  -moz-border-radius-topright: 10px;
-}
-.rus, .fis, .math, .teacher {
-border:solid 8px white;
-border-radius: 20px;
+ background-color:#FFDDD6;
+ color:white;
+ -webkit-border-top-left-radius: 10px;
+ -webkit-border-top-right-radius: 10px;
+ -moz-border-radius-topleft: 10px;
+ -moz-border-radius-topright: 10px;
 }
 .rus{
 width: 400px;
@@ -87,4 +94,8 @@ position: relative;
 }
 h6 {
   text-align: right;
+}
+a {
+color:black;
+text-decoration: none;
 }
