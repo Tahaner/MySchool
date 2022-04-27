@@ -12,8 +12,6 @@ background: linear-gradient(#FFDDD6 5%, #FFF9ED 10%, #FFF9ED 97%, #DBDBDB 85%);
 .motto {
   text-align: center;
   background-color:white;
-  border-left:240px;
-  border-left:240px;
   font-family: Gotham;
   border: solid 10px linen;
   border-radius: 10px;
@@ -29,16 +27,23 @@ background: linear-gradient(#FFDDD6 5%, #FFF9ED 10%, #FFF9ED 97%, #DBDBDB 85%);
 .school {
  border:solid 8px white;
  border-radius: 20px
+ height:50%;
+ width: 50%;
+ float: left;
 }
 .navig{
+  display: flex;
+  flex-direction: row;
   background-color: white;
   padding: 2px 0 2px 0
   border: solid 5px #FFDDD6;
   border-radius: 5px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
 }
 .navig li {
  display: inline-block;
- vertical-align: middle;
  padding:0 15px 10px 0;
  background: linear-gradient(45deg,lightBlue,white);
  border:solid 2px black;
@@ -64,27 +69,36 @@ border:solid 8px white;
 border-radius: 20px
 position: absolute;
 margin-bottom: 20px;
+height:50%;
+width: 50%;
+}
+.chem {
+  height:50%;
+  width: 50%;
 }
 .fis {
   border:solid 8px white;
   border-radius: 20px
   position: absolute;
+  height:50%;
+  width: 50%;
 }
 .math, .teacher {
   border:solid 8px white;
   border-radius: 20px
   position: absolute;
   margin-bottom: 20px;
+  height:50%;
+  width: 50%;
 }
 .teacher {
 margin-top: 10px
 }
-.text {
+.text_contacts_palet {
 background-color: linen;
 font-size: 30px;
-font-family: Times New Roman;
+font-family: "Times New Roman";
 text-align: center;
-position: relative;
 }
 h6 {
   text-align: right;
@@ -93,10 +107,3 @@ a {
 color:black;
 text-decoration: none;
  }
-@media screen and (min-width: 800px)
-print {
-  .math,.rus,.teacher{margin-left:600px;margin-bottom: 10px;}
-  .chem{margin-left:750px;margin-bottom: 10px;}
-  .fis{margin-left:350px;margin-bottom: 10px;}
-  .school{margin-left:420px;}
-}
